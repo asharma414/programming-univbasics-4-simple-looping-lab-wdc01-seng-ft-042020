@@ -15,3 +15,9 @@ def output_array(array)
     puts ele
   end
 end
+
+def return_string_array(array)
+  arr = []
+  array.each do |ele|
+    arr << ele.toString
+  
