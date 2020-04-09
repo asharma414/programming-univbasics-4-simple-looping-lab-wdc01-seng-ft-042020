@@ -3,3 +3,12 @@ def loop_message_five_times(message)
     puts message
   end
 end
+
+def loop_message_n_times(message, number)
+  n.times do
+    puts message
+  end
+end
+
+def output_array(array)
+end
