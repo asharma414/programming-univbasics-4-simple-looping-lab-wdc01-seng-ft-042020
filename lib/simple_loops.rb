@@ -19,5 +19,5 @@ end
 def return_string_array(array)
   arr = []
   array.each do |ele|
-    arr << ele.toString
+    arr << ele.to_s
   
